@@ -12,5 +12,5 @@ Difficulty: Easy
 """
 
 name = "Alice"
-message = f"Hello, {name}"
-print("Hello, {name}")
+message = "Hello, {name}"
+print(f"Hello, {name}")

@@ -14,7 +14,7 @@ Difficulty: Easy
 def calculate(a, b, op):
     if op == '+':
         return a + b
-    elif op == '-'
+    elif op == '-':
         return a - b
     else:
         return "Unknown operation"
