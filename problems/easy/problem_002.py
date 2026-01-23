@@ -12,5 +12,5 @@ Difficulty: Easy
 """
 
 name = "Alice"
-message = "Hello, {name}"
+message = f"Hello, {name}"
 print(f"Hello, {name}")
