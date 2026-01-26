@@ -22,7 +22,7 @@ class NotificationService:
         self.log_action(f"Added {user.username}")
     def log_action(self, msg):
         self.logs.append(msg)
-
+        
 
 sys = NotificationService()
 u = HospitalUser("Alice", "Admin")
